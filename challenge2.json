@@ -1,0 +1,42 @@
+{
+    "stage": "2/4",
+    "statement": "Giant leap !! easier step, next. Product now has startDate and endDate to specify when it is active. endDate null tells the product is active for ever from the startDate. The startDate and endDate are inclusive. 'POST' the count of products which are active today",
+    "instructions": "You can 'GET' the input from /challenge/input and output should be 'POST' json to /challenge/output. Important note: The time between request 'GET' input and 'POST' request should not exceed 2 secs",
+    "sampleInput": {
+        "input": [
+            {
+                "name": "Stainless Steel Cutter Peeler Tool Pineapple Seed Clip Home Kitchen Gadgets",
+                "category": "Kitchen",
+                "price": 260,
+                "startDate": "2017-01-30",
+                "endDate": "2017-04-04"
+            },
+            {
+                "name": "20.5cm Fruit Cutter Chef Kitchen Cutlery Knife Knives Choice - 07",
+                "category": "Kitchen",
+                "price": 149,
+                "startDate": "2017-01-30",
+                "endDate": "2019-12-04"
+            },
+            {
+                "name": "LETV LeEco Le 2 32GB Rose Gold",
+                "category": "Electronics",
+                "price": 1737,
+                "startDate": "2017-01-30",
+                "endDate": null
+            },
+            {
+                "name": "Nokia 1100",
+                "category": "Electronics",
+                "price": 999,
+                "startDate": "2019-09-30",
+                "endDate": null
+            }
+        ]
+    },
+    "sampleOutput": {
+        "output": {
+            "count": 2
+        }
+    }
+}
